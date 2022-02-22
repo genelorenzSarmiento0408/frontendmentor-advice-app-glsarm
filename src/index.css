@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+:root {
+  border: border-box;
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --grayish-blue: hsl(217, 19%, 38%);
+  --dark-grayish-blue: hsl(217, 19%, 24%);
+}
+body {
+  margin: 0;
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: calc(100vh - 1px);
+  display: grid;
+  place-items: center;
+  background-color: var(--dark-grayish-blue);
+  text-align: center;
+}
+
+.container {
+  background-color: var(--grayish-blue);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  max-width: 30rem;
+  margin-bottom: -0.6em;
+  color: white;
+}
+.id {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: var(--neon-green);
+}
+.divider-desktop {
+  padding: 3rem;
+}
+.dice-container {
+  border-radius: 50%;
+  background: var(--neon-green);
+  width: 2.75rem;
+  height: 2.75rem;
+  margin: -1.75rem auto;
+  padding: 0.75rem;
+}
+.dice-container:hover {
+  color: var(--neon-green);
+  background: hsl(150, 100%, 64%);
+  box-shadow: 0 0 10px hsl(150, 100%, 60%), 0 0 40px hsl(150, 100%, 60%),
+    0 0 80px hsl(150, 100%, 60%);
+}
+.dice {
+  margin-top: 0.75em;
+}
+
+.attribution {
+  margin: 2rem 0;
+  font-size: 0.75rem;
+  color: var(--light-cyan);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 80%;
+  }
+  .dice-container {
+    border-radius: 50%;
+    background: var(--neon-green);
+    width: 2.75rem;
+    height: 2.75rem;
+    margin: -1.75rem auto;
+    padding: 0.75rem;
+  }
+}
