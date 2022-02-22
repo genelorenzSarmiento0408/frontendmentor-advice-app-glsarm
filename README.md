@@ -39,8 +39,8 @@ I learned how to make a perfect circle using CSS custom properties.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/genelorenzSarmiento0408)
-- Twitter - [@yourusername](https://www.twitter.com/SarmientGene)
+- Frontend Mentor - [@genelorenzSarmiento0408](https://www.frontendmentor.io/profile/genelorenzSarmiento0408)
+- Twitter - [@SarmientGene](https://www.twitter.com/SarmientGene)
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
